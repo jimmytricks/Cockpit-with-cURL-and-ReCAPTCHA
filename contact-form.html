@@ -1,0 +1,17 @@
+<!-- Jquery loads here -->
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script src="https://www.google.com/recaptcha/recaptcha.js"></script>
+<!-- Rest of your scripts here -->
+
+<form id="captchaform" class="" action="https://yourdomain.com/results.php" method="post">
+
+    <!-- Put your form fields here -->
+
+    <!-- Add your public google recaptcha key here -->
+    <div class="g-recaptcha" data-sitekey="your_site_key" data-callback='onSubmitSendCaptcha' data-size="invisible">
+    </div>
+
+    <!-- Submit must have type submit -->
+    <button class="" type="submit">Submit</button>
+
+</form>
